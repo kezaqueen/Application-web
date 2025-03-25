@@ -1,0 +1,50 @@
+.foot-nav{}
+.header{
+
+}
+.logodit.io{}
+.signup-button{}
+.content{}
+.introduction{}
+.app-store-button{}
+.app-play-button{}
+.contactus{}
+.body{}
+.roger-image{}
+
+.over-users{
+    margin-top: 20%;
+    margin-left: 350px;
+}
+ .App-play-button{
+    margin-top: 25%;
+    margin-left: 20;
+ }
+.download-diti{
+display: flex;
+}
+.icons{
+    display: flex;
+    gap: 10%;
+    padding-left: 7%;
+    padding-right: 5%;
+    color: white;
+    background-color: rgb(16, 2, 54);
+}
+.footer{
+    border: 1px solid black;
+}
+.copyright{
+    display: flex;
+    gap: 25%;
+    padding-left: 5%;
+    padding-top: 1%;
+    color: white;
+    background-color: black;
+}
+.details{
+    list-style: none;
+}
+.heading{
+    padding-top: 1.5%;
+}
