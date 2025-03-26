@@ -6,12 +6,106 @@
 .signup-button{}
 .content{}
 .introduction{}
-.app-store-button{}
+
 .app-play-button{}
 .contactus{}
-.body{}
+.words{
+    display: flex;
+}
+.okay-words{
+    margin-top: 20px;
+}
+.how-to-create-account{
+    display: flex;
+}
+.customer-globally-highlight{
+    text-decoration: underline;
+    color: red;
+}
+.App-store-button{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 16x;
+}
+.play-store-button{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+}
+#somewords-highlight{
+    text-decoration: underline;
+    color: red;
+}
+#we-are-helping-people{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .roger-image{}
+.know-more-button{
+    font-size: 30px;
+    border-radius: 16px;
+    background-color: rgb(2, 2, 61);
+    color: white;
+    padding: 10px;
+}
+.mobile-app-interface{
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.helping-customers{
+    @media (max-width: 768px){
+        display: flex;
+    }
+    background-color: rgb(252 231 239);;
+    border-radius: 0%;
+}
+.customer-globally{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.businessman{
+    @media (max-width: 768px){
+        display: flex;
+    }
+}
+.edwin-jecson{
 
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.eduin-zohir{
+    border: 2px solid;
+    border-radius: 2px;
+    border-color: red;
+    border-radius: 40px;
+    width: 30%;
+    padding: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.jecson-business-man{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#somewords-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
 .over-users{
     margin-top: 20%;
     margin-left: 350px;
@@ -41,10 +135,22 @@ display: flex;
     padding-top: 1%;
     color: white;
     background-color: black;
+    
 }
+
+#users{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
 .details{
     list-style: none;
 }
 .heading{
     padding-top: 1.5%;
+}
+.footer{
+    @media (max-width: 768px){
+        display: flex;
+    }
 }
