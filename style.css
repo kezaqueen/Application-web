@@ -8,6 +8,7 @@
     margin-top: 100px;
     margin-left: 200px;
     justify-content: space-around;
+    gap: 30px;
 }
 #okayword{
     font-size: 60px;
@@ -45,9 +46,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 40px;
+    gap: 150px;
 }
 .subscribers{
     display: flex;
+    gap: 30px;
 }
 .downloads{
     display: flex;
@@ -91,9 +94,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
-.body{
+body{
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 245, 243);
 }
 .know-more-button{
     font-size: 30px;
@@ -165,6 +169,7 @@
  }
 .download-diti{
 display: flex;
+gap: 20px;
 }
 .icons{
     display: flex;
@@ -239,7 +244,7 @@ nav .ul-links{
     display: flex;
     text-decoration: none;
 }
-.log{
+#log{
     text-decoration: none;
 }
 .signup-button{
@@ -252,7 +257,23 @@ nav .ul-links{
     border: 1px;
     width: 7vw;
 }
+#plus-fifty{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
 
+#twentyk{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+#threehundred{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+#ten-k{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
 #dit{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
