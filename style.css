@@ -39,6 +39,7 @@
 #product-word{
     color:red;
 }
+
 .ditiio{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -94,7 +95,6 @@
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
-.roger-image{}
 .know-more-button{
     font-size: 30px;
     border-radius: 16px;
@@ -143,6 +143,7 @@
     font-size: 20px;
 
 }
+
 .jecson-business-man{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -191,7 +192,9 @@ display: flex;
     background-color: black;
     
 }
-
+.Roger-image{
+    transform: skew();
+}
 #users{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
