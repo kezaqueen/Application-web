@@ -1,14 +1,56 @@
-.foot-nav{}
-.header{
 
+.logos{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
 }
-.logodit.io{}
-.signup-button{}
-.content{}
-.introduction{}
-
-.app-play-button{}
-.contactus{}
+.contents{
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#okayword{
+    font-size: 60px;
+}
+#ditio{
+    text-decoration: underline;
+    color: red;
+    font-size: 60px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#over-thirttwo{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+#productheading{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#product-word{
+    color:red;
+}
+.ditiio{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.subscribers{
+    display: flex;
+}
+.downloads{
+    display: flex;
+}
 .words{
     display: flex;
 }
@@ -28,12 +70,16 @@
     color: white;
     background-color: darkblue;
     border-radius: 10px;
-    padding: 16x;
+    padding: 16px;
 }
 .play-store-button{
     font-size: 30px;
+    border-radius: 18px;
+    padding: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color:darkblue
+
+
 }
 #somewords-highlight{
     text-decoration: underline;
@@ -55,6 +101,8 @@
     background-color: rgb(2, 2, 61);
     color: white;
     padding: 10px;
+    transform: skew();
+    margin-left: 20px;
 }
 .mobile-app-interface{
     margin-top: 15%;
@@ -128,6 +176,12 @@ display: flex;
 .footer{
     border: 1px solid black;
 }
+.introduction{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    justify-content: space-around;
+}
 .copyright{
     display: flex;
     gap: 25%;
@@ -153,4 +207,54 @@ display: flex;
     @media (max-width: 768px){
         display: flex;
     }
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logodit{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .ul-links a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .ul-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    display: flex;
+    text-decoration: none;
+}
+.log{
+    text-decoration: none;
+}
+.signup-button{
+    background: linear-gradient(to right, #FF00FF, #FA8072);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    border: 1px;
+    width: 7vw;
+}
+
+#dit{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.introduction-words{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
